@@ -115,6 +115,7 @@ h1, h2, h3, h4 {
   display: flex;
   position: fixed;      /* 🔥 navbar siempre fija */
   top: 50px;            /* debajo de la topbar */
+
   left: 0;
   width: 100%;
   align-items: center;
@@ -836,7 +837,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 10px;
+    gap: 5px;
     margin-bottom:0;
   }
 
@@ -1055,4 +1056,11 @@ p {
   font-size: 0.8rem;
   padding-top: 15px;
 }
+}
+
+@media (max-width: 834px) {
+
+  .topbar{
+    margin-bottom: 3rem;
+  }
 }
