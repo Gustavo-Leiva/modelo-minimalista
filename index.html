@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalista-profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/app.js" defer></script>
+    <script src="./js/app2.js" defer></script>
+    <script src="./js/app3.js" defer></script>
+    <!-- <script src="./js/app4.js" defer></script> -->
+</head>
+
+<body>
+
+    <header>
+
+        <!-- BARRA SUPERIOR -->
+        <section class="topbar">
+
+            <!-- TEL -->
+            <p class="contacto-item">
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    1111-2222 /
+                </span>
+
+                <span>
+                    <i class="fab fa-whatsapp"></i>
+                    +54 9 11 1111-2222
+                </span>
+            </p>
+
+            <!-- REDES -->
+            <div class="social">
+
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+
+
+
+
+            <!-- MAIL -->
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@estudiocontable.com.ar">
+                    info@estudiocontable.com.ar
+                </a>
+            </p>
+
+        </section>
+
+        <!-- NAVEGACION -->
+        <nav class="navbar" aria-label="Menú principal">
+
+            <img src="./assets/logo.jpg" alt="Logo Estudio Contable" class="logo">
+
+            <!-- BOTON SOLO MOBILE -->
+            <!-- Botón hamburguesa -->
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">¿Quiénes Somos?</a></li>
+                <li><a href="#sitios">Sitios de Interés</a></li>
+                <li><a href="#">Trabaja con Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section id="inicio" class="hero">
+        <div class="hero-contenido">
+            <h1>Bienvenido a Estudio Contable</h1>
+            <p>Una solución a la medida del cliente</p>
+        </div>
+    </section>
+
+
+    <section class="servicios" id="servicios">
+
+        <header class="servicios-header">
+            <h2 class="servicios-generales">Servicios</h2>
+            <p>
+                Buscamos el mejor servicio para todos nuestros clientes.
+                Una asistencia a la medida de cada necesidad.
+            </p>
+        </header>
+
+        <div class="servicios-grid">
+
+            <article class="servicio">
+                <h3><i class="fa-solid fa-dollar-sign"></i> Impositivo</h3>
+                <p>Asesoramiento, planeamiento impositivo y adecuada interpretación de todas las normas tributarias.</p>
+                <button class="ver-mas" data-servicio="impositivo">Leer Más</button>
+            </article>
+
+            <article class="servicio">
+                <h3><i class="fa-solid fa-calculator"></i> Contable</h3>
+                <p>Ofrecemos un asesoramiento integral y una efectiva contabilidad y asesoría financiera.</p>
+                <button class="ver-mas" data-servicio="contable">Leer Más</button>
+            </article>
+
+            <article class="servicio">
+                <h3><i class="fa-solid fa-users"></i> Laboral</h3>
+                <p>Asesoramiento integral según normativas y regulaciones vigentes.</p>
+                <button class="ver-mas" data-servicio="laboral">Leer Más</button>
+            </article>
+
+            <article class="servicio">
+                <h3><i class="fa-solid fa-building"></i> Societario</h3>
+                <p>Análisis y asesoramiento del tipo societario adecuado a cada cliente.</p>
+                <button class="ver-mas" data-servicio="societario">Leer Más</button>
+            </article>
+
+            <article class="servicio">
+                <h3><i class="fa-solid fa-industry"></i> Radicación de Industrias</h3>
+                <p>Contamos con un equipo de profesionales para acompañar el proceso.</p>
+                <button class="ver-mas" data-servicio="industrias">Leer Más</button>
+            </article>
+
+            <article class="servicio">
+                <h3><i class="fa-solid fa-briefcase"></i> Otros Servicios</h3>
+                <p>Aquí encontrará una respuesta a su necesidad.</p>
+                <button class="ver-mas" data-servicio="otros">Leer Más</button>
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="historia" id="nosotros">
+
+        <div class="historia-contenido">
+
+            <h2 class="nosotros">Nuestra Historia</h2>
+
+            <p>
+                Tenemos nuestros orígenes como un Estudio Contable Impositivo constituido por un equipo de jóvenes
+                profesionales egresados de la misma Universidad, unidos desde el inicio por objetivos en común.
+                En el año 2009 formamos Estudio Mentor, hoy constituidos como sociedad bajo el nombre de Grupo Rosefer
+                S.A.S.
+            </p>
+
+            <p>
+                La integridad entre nuestros socios y con nuestros clientes es lo que intentamos transmitir. Creemos en
+                nuestra manera de trabajar, en lo que comunicamos y en lo que esperamos de cada proyecto.
+            </p>
+
+            <p>
+                La pasión por brindar soluciones integrales en materia impositiva y contable nos permitió ofrecer un
+                amplio abanico de servicios. A través de alianzas estratégicas con profesionales especializados, hoy nos
+                dedicamos a la consultoría acompañando el desarrollo de cada cliente.
+            </p>
+
+            <div class="historia-grid">
+
+                <div class="bloque">
+                    <h3>Visión</h3>
+                    <p>
+                        Desarrollar relaciones de largo plazo, generando alianzas estratégicas y brindando asesoramiento
+                        integral en todas las áreas necesarias para nuestros clientes.
+                    </p>
+                </div>
+
+                <div class="bloque">
+                    <h3>Misión</h3>
+                    <p>
+                        Consolidar relaciones profesionales mediante compromiso, responsabilidad, liderazgo y ética en
+                        cada proyecto asumido.
+                    </p>
+                </div>
+
+                <div class="bloque">
+                    <h3>Valores</h3>
+                    <p>
+                        Trabajo en equipo, capacitación constante y atención personalizada. Nuestra base es la
+                        integridad: honestidad, respeto, responsabilidad, puntualidad y compromiso.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="sitios" id="sitios">
+
+        <div class="sitios-contenido">
+
+            <h2 class="sitios-interes">Sitios de Interés</h2>
+
+            <p class="sitios-descripcion">
+                Links útiles para Pymes. Encontrá accesos rápidos a organismos y herramientas
+                clave para la gestión diaria de tu empresa.
+            </p>
+
+            <div class="sitios-grid">
+
+                <a href="https://www.afip.gob.ar" target="_blank" class="sitio-card">
+                    <img src="./assets/arca.png" alt="">
+
+                </a>
+
+                <a href="https://www.agip.gob.ar" target="_blank" class="sitio-card">
+                    <img src="./assets/agip.jpg" alt="">
+                </a>
+
+                <a href="https://www.arba.gov.ar" target="_blank" class="sitio-card">
+                    <img src="./assets/arba.png" alt="">
+                </a>
+
+                <a href="https://www.bcra.gob.ar" target="_blank" class="sitio-card">
+                    <img src="./assets/bcra.png" alt="">
+                </a>
+
+                <a href="https://www.comarb.gob.ar" target="_blank" class="sitio-card">
+                    <img src="./assets/comarb.jpg" alt="">
+                </a>
+
+                <a href="https://www.consejo.org.ar/" target="_blank" class="sitio-card">
+                    <img src="./assets/consejocaba.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contacto" class="contactanos">
+        <h2 class="contactos">Contactanos</h2>
+        <div class="ubicacion">
+            <div id="map" class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6568.290185691691!2d-58.39585422056457!3d-34.60049239595466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb7e8306ca29%3A0x7bb987127187281c!2sConsejo%20Ciencias%20Econ%C3%B3micas!5e0!3m2!1ses-419!2sar!4v1708299247180!5m2!1ses-419!2sar"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="datos">
+                <div>
+                    <h3>Dirección</h3>
+                    <p>Viamonte 1461 Piso 1 of. B (1068) Ciudad Autónoma de Buenos Aires.</p>
+                </div>
+
+                <div>
+                    <h3>Teléfono</h3>
+                    <p>+54-11-4362-1111 / 2222</p>
+                </div>
+
+                <div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:estudio@contable.com.ar">estudio@contable.com.ar</a></p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="modal" id="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2 id="modal-titulo"></h2>
+            <div id="modal-texto"></div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer" id="contacto">
+
+        <div class="footer-contenido">
+
+            <!-- LOGO / DESCRIPCIÓN -->
+            <div class="footer-col">
+                <img src="./assets/logo.jpg" alt="Logo Estudio" class="footer-logo">
+                <p>
+                    Brindamos soluciones contables, impositivas y financieras adaptadas a cada cliente.
+                </p>
+            </div>
+
+            <!-- CONTACTO -->
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p><i class="fa-solid fa-phone"></i> 1111-2222</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 11 1111-2222</p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:info@estudiocontable.com.ar">
+                        info@estudiocontable.com.ar
+                    </a>
+                </p>
+                <p><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
+            </div>
+
+            <!-- NAVEGACIÓN -->
+            <div class="footer-col">
+                <h4>Secciones</h4>
+                <a href="#">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#sitios">Sitios de interés</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <!-- REDES -->
+            <div class="footer-col">
+                <h4>Seguinos</h4>
+                <div class="footer-redes">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+            <p>© 2026 Estudio Contable - Todos los derechos reservados</p>
+            <p>
+                Sitio web desarrollado por
+                <a href="https://tuweb.com" target="_blank" rel="noopener noreferrer">
+                    Gustavo Leiva
+                </a>
+            </p>
+        </div>
+
+    </footer>
+
+    <a href="https://wa.me/549XXXXXXXXXX" class="whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+
+</html>
