@@ -240,6 +240,31 @@ h1, h2, h3, h4 {
 
 
 
+/*Boton de contacto*/
+.btn-hero {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a; /* oscuro para contraste */
+  background: #32dbc6;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.btn-hero:hover {
+  background: #28bfae;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(50, 219, 198, 0.4);
+}
+
+/* click */
+.btn-hero:active {
+  transform: scale(0.97);
+}
 
 .servicios {
   padding: 3rem 0.5rem;
